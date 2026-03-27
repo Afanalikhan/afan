@@ -25,9 +25,8 @@ I am a 14-year-old developer from **Chitral, North Pakistan**. I started my codi
 
 ### 📫 Connect with me
 - **Portfolio:** [afanali.com](https://afanali.com)
-- **Discord:** [YourUsername#0000]
-- **Email:** [Your Email Address]
-
+- **Discord:** [afanalikhan]
+- **Email:** [khanafanali1@gmail.com]
 ---
 
 *"Turning logic into solutions, one line of code at a time."*
