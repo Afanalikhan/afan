@@ -45,7 +45,7 @@ background:linear-gradient(
 var(--primary),
 var(--secondary)
 );
--webkit-background-clip:text;
+
 -webkit-text-fill-color:transparent;
 }
 
@@ -161,7 +161,7 @@ background:linear-gradient(
 var(--primary),
 var(--secondary)
 );
--webkit-background-clip:text;
+
 -webkit-text-fill-color:transparent;
 }
 
