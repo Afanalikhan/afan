@@ -1,151 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Afan Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<title>Afan Ali Khan | Developer & Founder</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
-
 <body>
 
-<!-- 🔥 NAVBAR -->
-<header class="navbar">
+<!-- LOADER -->
 
-    <div class="logo">
-        <img src="logo.jpg" alt="logo">
-        <span>Afan</span>
+<div id="loader">
+    <div class="loader-content">
+        <h1>AFAN</h1>
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
     </div>
-
-    <nav class="nav-links" id="navLinks">
-        <a href="#home">Home</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#resume">Resume</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <div class="hamburger" id="hamburger">
-    <span></span>
-    <span></span>
-    <span></span>
 </div>
 
-</header>
+<!-- BACKGROUND -->
 
+<div class="bg-animation"></div>
 
-<!-- 🔥 HERO -->
-<section id="home" class="hero">
-    <div class="hero-bg"></div>
+<!-- NAVBAR -->
+
+<nav>
+
+    <div class="logo">
+        AFAN
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#skills">Skills</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#achievements">Achievements</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
 
     <div class="hero-content">
 
-        <div class="badge">🚀 Building Digital Experiences</div>
+        <span class="location">
+            🏔️ Chitral, Pakistan
+        </span>
 
-        <h1>Afan Ali Khan</h1>
+        <h1>
+            AFAN ALI KHAN
+        </h1>
 
-        <p>I build modern websites, games, and real-world applications using code.</p>
+        <h2 id="typing"></h2>
+
+        <p>
+
+            Building technology that connects people,
+            empowers communities and creates opportunities
+            through innovation.
+
+        </p>
 
         <div class="hero-buttons">
-            <a href="#projects" class="btn primary">See Projects</a>
-            <a href="#contact" class="btn secondary">Contact Me</a>
+
+            <a href="#projects" class="btn-primary">
+                Explore Projects
+            </a>
+
+            <a href="#contact" class="btn-secondary">
+                Contact Me
+            </a>
+
         </div>
 
     </div>
 
 </section>
 
+<!-- STATS -->
 
-<!-- 🔥 PROJECTS -->
-<section id="projects" class="projects">
-    <h2 class="section-title">My Projects</h2>
+<section class="stats">
 
-    <div class="featured-project">
-        <h3>DUR KHOJ 🚀</h3>
+    <div class="stat-card">
+        <h2>11+</h2>
+        <p>Age Started Coding</p>
+    </div>
 
-        <p>
-            My biggest project — a full real estate platform where users can post,
-            browse, and manage properties with maps and Firebase backend.
-        </p>
+    <div class="stat-card">
+        <h2>3+</h2>
+        <p>Major Projects</p>
+    </div>
 
-        <ul>
-            <li>✔ Authentication System</li>
-            <li>✔ Property Posting & Dashboard</li>
-            <li>✔ Interactive Map Location</li>
-            <li>✔ Likes & Comments System</li>
-        </ul>
+    <div class="stat-card">
+        <h2>1</h2>
+        <p>Harvard CS50 Certificate</p>
+    </div>
 
-        <div class="project-buttons">
-            <a href="https://dur-khoj.web.app" target="_blank">Live Demo</a>
-            <a href="#">Source Code</a>
+    <div class="stat-card">
+        <h2>∞</h2>
+        <p>Dreams To Build</p>
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <div class="section-title">
+        <h2>About Me</h2>
+    </div>
+
+    <div class="about-container">
+
+        <div class="about-card">
+
+            <p>
+
+                Hello! I'm Afan Ali Khan, a young programmer,
+                founder, and innovator from the beautiful
+                mountains of Chitral, Pakistan.
+
+                My journey into technology began when I was
+                just 11 years old. Since then I have dedicated
+                myself to learning programming, web development,
+                problem solving and building projects that make
+                a positive impact.
+
+                I completed Harvard University's CS50x
+                Introduction to Computer Science and continue
+                exploring new technologies every day.
+
+                Beyond coding, I actively participate in
+                scouting, community service, volunteer work,
+                leadership activities and international youth
+                initiatives.
+
+                My mission is to use technology to connect
+                communities, preserve culture and create
+                opportunities for people around the world.
+
+            </p>
+
         </div>
+
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+    <div class="section-title">
+        <h2>Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            HTML5
+        </div>
+
+        <div class="skill-card">
+            CSS3
+        </div>
+
+        <div class="skill-card">
+            JavaScript
+        </div>
+
+        <div class="skill-card">
+            SQL
+        </div>
+
+        <div class="skill-card">
+            Firebase
+        </div>
+
+        <div class="skill-card">
+            GitHub
+        </div>
+
+        <div class="skill-card">
+            Responsive Design
+        </div>
+
+        <div class="skill-card">
+            AI Development
+        </div>
+
+        <div class="skill-card">
+            Game Development
+        </div>
+
+        <div class="skill-card">
+            Leadership
+        </div>
+
+        <div class="skill-card">
+            Community Service
+        </div>
+
+        <div class="skill-card">
+            Public Speaking
+        </div>
+
+        <div class="skill-card">
+            Teamwork
+        </div>
+
+        <div class="skill-card">
+            Project Management
+        </div>
+
+        <div class="skill-card">
+            Scouting
+        </div>
+
+        <div class="skill-card">
+            Problem Solving
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+    <div class="section-title">
+        <h2>Projects</h2>
     </div>
 
     <div class="projects-grid">
+
         <div class="project-card">
-            <h3>Snake Game 🐍</h3>
-            <p>Classic snake game with smooth controls.</p>
-            <a href="#">Play →</a>
+
+            <div class="project-icon">🏔️</div>
+
+            <h3>Dur Khoj</h3>
+
+            <p>
+
+                A platform designed to showcase Chitral's
+                culture, opportunities, information and
+                housing resources.
+
+            </p>
+
+            <a href="https://dur-khoj.web.app"
+               target="_blank">
+
+                Visit Website
+
+            </a>
+
         </div>
 
         <div class="project-card">
-            <h3>3D Car Game 🚗</h3>
-            <p>3D driving simulation with physics.</p>
-            <a href="#">View →</a>
+
+            <div class="project-icon">🤖</div>
+
+            <h3>Khoj AI</h3>
+
+            <p>
+
+                An AI-powered assistant focused on helping
+                people learn, discover information and
+                solve problems.
+
+            </p>
+
         </div>
 
         <div class="project-card">
-            <h3>Tappy Bird 🐦</h3>
-            <p>Arcade game with smooth physics.</p>
-            <a href="#">Play →</a>
-        </div>
 
-        <div class="project-card">
-            <h3>Coin Dash 💰</h3>
-            <p>Fast-paced coin collecting game.</p>
-            <a href="#">Play →</a>
-        </div>
+            <div class="project-icon">🌍</div>
 
-    </div>
+            <h3>Global Student Bridge</h3>
 
-</section>
+            <p>
 
+                Connecting students worldwide through
+                collaboration, friendship and cultural
+                exchange.
 
-<!-- 🔥 SKILLS -->
-<section id="skills" class="skills-section">
-    <div class="container">
-
-        <h2 class="section-title">My Skills</h2>
-
-        <div class="skills-container">
-
-            <div class="skill-box">
-                <h3>💻 Development</h3>
-                <p>HTML, CSS, JavaScript, SQL</p>
-            </div>
-
-            <div class="skill-box">
-                <h3>🔥 Backend</h3>
-                <p>Firebase, Database Management</p>
-            </div>
-
-            <div class="skill-box">
-                <h3>🎮 Game Development</h3>
-                <p>GDevelop, 2D Game Design</p>
-            </div>
-
-            <div class="skill-box">
-                <h3>🛠 Tools</h3>
-                <p>Git, GitHub, VS Code</p>
-            </div>
-
-            <div class="skill-box">
-                <h3>🚀 Exploring</h3>
-                <p>C Language, Low-level Programming</p>
-            </div>
+            </p>
 
         </div>
 
@@ -153,225 +318,86 @@
 
 </section>
 
+<!-- ACHIEVEMENTS -->
 
-<!-- 🔥 PREMIUM RESUME -->
-<section id="resume" class="resume-section">
+<section id="achievements">
 
-    <h2 class="section-title">My Journey</h2>
+    <div class="section-title">
+        <h2>Achievements</h2>
+    </div>
 
     <div class="timeline">
 
-        <!-- SUMMARY -->
         <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-                <h3>Professional Summary</h3>
-                <p>
-                    14-year-old developer with 3+ years experience in web development.
-                    Built real-world platforms like DUR KHOJ to solve community problems.
-                </p>
-            </div>
+            Started Coding at 11
         </div>
 
-        <!-- SKILLS -->
         <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-                <h3>Technical Skills</h3>
-                <div class="skills-tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>SQL</span>
-                    <span>Firebase</span>
-                    <span>Git</span>
-                    <span>GitHub</span>
-                    <span>GDevelop</span>
-                </div>
-            </div>
+            Built Multiple Projects
         </div>
 
-        <!-- PROJECT -->
-        <div class="timeline-item highlight">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-                <h3>DUR KHOJ 🚀</h3>
-                <p>
-                    A real estate platform where users can post, browse, and manage properties.
-                </p>
-
-                <ul>
-                    <li>✔ Authentication system</li>
-                    <li>✔ Dashboard & posting</li>
-                    <li>✔ Database design</li>
-                    <li>✔ Solves local housing problem</li>
-                </ul>
-
-                <a href="https://dur-khoj.web.app" target="_blank" class="resume-btn">
-                </a>
-            </div>
-        </div>
-
-        <!-- EDUCATION -->
         <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-                <h3>Education</h3>
-                <p>
-                    The Langland School & College <br>
-                    Grade 9 <br>
-                    Focus: CS, Math, Physics
-                </p>
-            </div>
+            Community Volunteer
         </div>
 
-    </div>
-
-</section>
-<!-- 🔥 ABOUT SECTION -->
-<section id="about" class="about-section">
-
-    <div class="container">
-
-        <h2 class="section-title">About Me</h2>
-
-        <div class="about-content">
-
-            <!-- LEFT SIDE -->
-            <div class="about-text">
-
-                <h3>Afan Ali Khan 🚀</h3>
-
-                <p>
-                    I am a passionate young developer from <strong>Chitral, Pakistan</strong>,
-                    focused on building real-world digital solutions through code.
-                </p>
-
-                <p>
-                    I started my journey at the age of 11, learning HTML, CSS, and JavaScript,
-                    and quickly moved into building full projects including websites,
-                    games, and backend systems.
-                </p>
-
-                <p>
-                    My biggest project is <strong>DUR KHOJ</strong>, a complete real estate platform
-                    where users can post, browse, and manage properties using Firebase
-                    and interactive maps.
-                </p>
-
-                <p>
-                    I am also the founder of <strong>Global Student Bridge</strong>,
-                    an initiative focused on connecting students and creating opportunities
-                    for learning and growth.
-                </p>
-
-                <p>
-                    Alongside that, I am working on <strong>Chitral Pride Vision</strong>,
-                    a project aimed at promoting my region, culture, and local talent
-                    through technology.
-                </p>
-
-                <p>
-                    My skillset includes <strong>HTML, CSS, JavaScript, SQL, Firebase,
-                    and Game Development</strong>. I also use tools like Git, GitHub,
-                    and VS Code in my daily workflow.
-                </p>
-
-                <p>
-                    Currently, I am exploring <strong>C language and low-level programming</strong>
-                    to deepen my understanding of how systems work internally.
-                </p>
-
-                <p class="about-highlight">
-                    My goal is to become a world-class developer and use technology
-                    to solve real problems and create impactful platforms.
-                </p>
-
-            </div>
-
-            <!-- RIGHT SIDE -->
-<div class="about-cards">
-                <div class="about-card">
-                    <h4>📍 Location</h4>
-                    <p>Chitral, Pakistan</p>
-                </div>
-
-                <div class="about-card">
-                    <h4>🎯 Focus</h4>
-                    <p>Web Apps & Game Development</p>
-                </div>
-
-                <div class="about-card">
-                    <h4>🚀 Projects</h4>
-                    <p>DUR KHOJ, Games, Platforms</p>
-                </div>
-
-                <div class="about-card">
-                    <h4>🌍 Vision</h4>
-                    <p>Global impact through technology</p>
-                </div>
-
-            </div>
-
+        <div class="timeline-item">
+            Scout Activities
         </div>
 
-    </div>
+        <div class="timeline-item">
+            Harvard CS50x Graduate
+        </div>
 
-</section>
-<!-- 🔥 CONTACT -->
-<section id="contact" class="contact-section">
-    <div class="container">
-
-        <h2 class="section-title">Contact Me</h2>
-
-        <div class="contact-cards">
-
-            <a href="mailto:khanafanali1@gmail.com" class="contact-card">
-                📧 Email
-            </a>
-
-            <a href="https://github.com/Afanalikhan" target="_blank" class="contact-card">
-                💻 GitHub
-            </a>
-
-            <a href="https://gd.games/strikezone" target="_blank" class="contact-card">
-                🎮 Game
-            </a>
-
+        <div class="timeline-item">
+            Global Student Bridge
         </div>
 
     </div>
 
 </section>
 
+<!-- CONTACT -->
 
-<footer class="footer">
+<section id="contact">
 
-    <div class="footer-content">
+    <div class="section-title">
+        <h2>Let's Connect</h2>
+    </div>
 
-        <div class="footer-left">
-            <h2>Afan</h2>
-            <p>Building digital experiences 🚀</p>
+    <div class="contact-grid">
+
+        <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>Your Email Here</p>
         </div>
 
-        <div class="footer-links">
-            <a href="#home">Home</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+        <div class="contact-card">
+            <i class="fab fa-github"></i>
+            <h3>GitHub</h3>
+            <p>Your GitHub</p>
         </div>
 
-        <div class="footer-socials">
-            <a href="mailto:khanafanali1@gmail.com">📧</a>
-            <a href="https://github.com/Afanalikhan" target="_blank">💻</a>
+        <div class="contact-card">
+            <i class="fas fa-location-dot"></i>
+            <h3>Location</h3>
+            <p>Chitral, Pakistan</p>
         </div>
 
     </div>
 
-    <div class="footer-bottom">
-        <p>© 2026 Afan Ali Khan. All rights reserved.</p>
-    </div>
+</section>
+
+<footer>
+
+    <p>
+
+        © 2026 Afan Ali Khan | Built with Passion & Code
+
+    </p>
 
 </footer>
+
 <script src="script.js"></script>
 
 </body>
